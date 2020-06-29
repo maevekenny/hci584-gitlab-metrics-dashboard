@@ -1,0 +1,654 @@
+
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/css/black-dashboard.css?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/css/nucleo-icons.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/demo/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/js/black-dashboard.min.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/demo/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/js/plugins/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/js/core/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/js/plugins/chartjs.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:32] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:33] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:57:34] "GET /static/assets/img/favicon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:04] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:05] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:05] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:08] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:08] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:09] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:13] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:13] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:14] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:22] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:22] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:22] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:27] "GET /create_user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:27] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:27] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:42] "POST /create_user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:42] "GET /static/assets/img/anime3.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:42] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:43] "GET /static/assets/fonts/nucleo.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:43] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:47] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:47] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:47] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:47] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:54] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:54] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:54] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:55] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 21:59:55] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:01:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:01:52] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:01:52] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:01:52] "GET /static/assets/img/favicon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:14] "GET /ui-typography HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:14] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:14] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:16] "GET /ui-tables HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:17] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:17] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:18] "GET /page-user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:18] "GET /static/assets/img/emilyz.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:19] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:14:19] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\util.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:18:57] "GET /page-user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:18:57] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:18:57] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:18:58] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:27:38] "GET /page-user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:27:39] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:27:39] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:27:40] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:28:29] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:28:29] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:28:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:28:30] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:28:30] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:48:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:48:08] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:48:09] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:48:09] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:57:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:57:17] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:57:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:57:40] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:57:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:57:53] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:58:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 22:58:08] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:00:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:00:26] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:00:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:00:51] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:07:34] "GET /page-rtl-support HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:07:42] "GET /page-rtl-support HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:08:08] "GET /ui-tables HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:08:16] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:08:16] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:08:16] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:08:23] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:08:24] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:15:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:15:43] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:15:53] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:15:53] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:18:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:18:51] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:18:51] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:18:52] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:00] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:00] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:01] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:18] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:18] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:19] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:29] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:29] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:19:30] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:22:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:22:08] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:22:08] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:22:09] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:24:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:24:06] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:24:06] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:24:06] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:24:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:24:34] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:24:34] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:24:35] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:06] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:06] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:07] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:39] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:40] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:40] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:51] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:51] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:25:52] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:06] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:07] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:07] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:14] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:14] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:15] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:22] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:22] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:23] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:30] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:30] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:30] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:55] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:56] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:26:56] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:03] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:03] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:04] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:07] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:07] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:08] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:21] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:21] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:22] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:29] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:29] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:27:30] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:28:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:28:26] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:28:26] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:28:27] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:31:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:31:25] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:31:25] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:31:26] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:31:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:31:49] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:31:49] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:31:50] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:33:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:33:31] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:33:31] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:33:32] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:37:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:37:18] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:37:22] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:37:22] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:37:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:37:36] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:37:36] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:37:37] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:38:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:38:18] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:38:18] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:38:19] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:38:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:38:21] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:38:21] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:38:22] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:40:51] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:40:52] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:40:52] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:40:52] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:40:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:40:54] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:40:55] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:40:56] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:42:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:42:19] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:42:19] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:42:20] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:42:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:42:49] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:42:49] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:42:50] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:46:08] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:46:08] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:46:14] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:46:14] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:46:14] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:46:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:46:20] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:46:20] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:47:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:47:45] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:47:46] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:47:47] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:48:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:48:19] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:48:19] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:48:20] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:48:50] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:48:51] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:48:51] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:48:52] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:49:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:49:44] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:49:44] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:49:45] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:57:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:57:25] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:57:26] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:57:26] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:58:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:58:30] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:58:30] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [27/Jun/2020 23:58:31] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 00:00:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 00:00:02] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 00:00:02] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 00:00:03] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/css/black-dashboard.css?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/css/nucleo-icons.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/demo/demo.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/js/core/jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/js/plugins/chartjs.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/js/plugins/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/js/black-dashboard.min.js?v=1.0.0 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/demo/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/img/anime3.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/fonts/nucleo.woff2 HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:34] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:05:35] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:06:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:06:02] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:06:02] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:06:03] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:03] "GET /index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:03] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:03] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:03] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:03] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:03] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:04] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:57] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:57] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:07:58] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:08:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:08:55] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:08:55] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:08:56] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:17:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:17:59] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:17:59] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:17:59] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:18:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:18:35] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:18:35] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:18:35] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:18:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:18:46] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:18:46] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:18:46] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:19:21] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:19:21] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:19:21] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:19:22] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:20:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:20:17] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:20:17] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:20:18] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:20:35] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:20:35] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:20:35] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:20:36] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:21:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:21:06] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:21:07] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:21:07] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:21:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:21:19] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:21:19] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:21:20] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:22:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:22:05] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:22:05] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:22:05] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:22:55] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:22:56] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:22:56] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:22:56] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:19] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:19] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:19] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:20] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:29] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:29] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:29] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:57] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:57] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:57] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:24:57] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:01] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:01] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:01] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:02] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:02] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:03] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:40] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:41] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:41] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:41] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:47] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:47] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:27:47] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:32] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:32] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:32] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:40] "GET /page-user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:40] "GET /static/assets/img/emilyz.jpg HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:40] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:40] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:47] "GET /page-user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:47] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:47] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:56] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:56] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:56] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:56] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:28:56] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:29:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:29:41] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:29:41] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:29:41] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:03] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:04] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:04] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:04] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:15] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:15] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:15] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:30] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:30] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:31] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:54] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:54] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:54] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:31:55] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:32:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:32:39] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:32:53] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:32:54] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:33:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:33:06] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:33:20] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:33:20] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:33:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:33:48] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:33:48] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:33:49] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:35:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:35:46] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:35:46] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:35:46] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:35:59] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:35:59] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:35:59] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:35:59] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:05] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:05] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:05] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:10] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:10] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:11] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:11] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:11] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:12] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:14] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:14] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:14] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:19] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:19] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 17:36:19] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:30:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:30:47] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:30:47] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:30:48] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:31:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:31:26] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:31:26] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:31:27] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:14] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:14] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:14] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:37] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:37] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:45] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 20:32:45] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\config.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\config.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:39:31] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:39:31] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:39:31] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:47:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:47:11] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:48:44] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:48:45] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:49:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:49:08] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:50:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:50:46] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:51:28] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:51:29] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:51:30] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:51:30] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:51:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:51:38] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:51:38] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:51:39] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:52:17] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:52:17] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:06] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:06] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:07] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:08] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:08] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:09] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:20] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:20] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:53:21] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:54:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:54:06] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:54:06] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:54:07] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:38] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:38] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:39] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:41] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:41] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:42] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:42] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:43] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:43] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:43] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:48] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:48] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:48] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:49] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:49] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:57:49] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:58:34] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:58:34] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:58:34] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:58:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 21:58:37] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:00:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:00:18] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:00:19] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:00:26] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:00:27] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:05:05] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:05:05] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:05:06] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:05:07] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:05:14] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:05:14] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:05:14] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:22:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:22:38] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:29:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:29:41] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:31:46] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:31:47] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:32:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:32:16] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:33:17] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:33:18] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:34:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:34:15] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:34:58] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:34:59] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:35:00] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:35:00] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:35:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:35:12] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:35:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:35:27] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:35:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:35:49] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:36:37] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:36:38] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:36:39] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:36:40] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
