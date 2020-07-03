@@ -1,0 +1,188 @@
+# milestones
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/groups/voltron"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '<PRIVATE TOKEN>',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("GET", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+
+
+## sprint
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/groups/compass/projects/"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("GET", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# projects
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/groups/compass/projects/"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("GET", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# smp projects
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/groups/5831/projects"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("GET", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# rose projects
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/projects/11356/issues"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("GET", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# create issue
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/projects/11356/issues?title=maeve&labels=bug&description"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("POST", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# edit issue
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/projects/11356/issues/25?state_event=close"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("PUT", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# delete issue
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/projects/11356/issues/25"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("DELETE", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# stats
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/issues_statistics?milestone=Compass 2020 Release 1 Sprint 1&scope=all"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("GET", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# create approvals issue
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/projects/10653/issues"
+
+payload = {}
+headers = {
+  'PRIVATE-TOKEN': '',
+  'Cookie': 'experimentation_subject_id=ImRmMjk4NTY1LTFjZWYtNGYwNC1hN2Q0LWNmMTBiOWE2OTBlZiI%3D--845970cddf56cc92924a7520f2e1ad3679e53064'
+}
+
+response = requests.request("POST", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# edit approvals issue
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/projects/11356/issues/25?state_event=close"
+
+payload = {}
+headers= {}
+
+response = requests.request("PUT", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+
+# compass projects all
+
+import requests
+
+url = "https://gitlab.us.lmco.com/api/v4/groups/compass/projects?include_subgroups=true&per_page=100"
+
+payload = {}
+headers= {}
+
+response = requests.request("GET", url, headers=headers, data = payload)
+
+print(response.text.encode('utf8'))
+

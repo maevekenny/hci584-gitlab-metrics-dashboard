@@ -652,3 +652,36 @@ INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:36:37] "GET /index HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:36:38] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:36:39] "GET /index HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [28/Jun/2020 22:36:40] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/css/nucleo-icons.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/demo/demo.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/css/black-dashboard.css?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/js/plugins/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/demo/demo.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/js/black-dashboard.min.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/js/core/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:15:58] "GET /static/assets/js/plugins/chartjs.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:17:59] "GET /create_user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:18:00] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:18:03] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:26:37] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:26:37] "GET /static/assets/fonts/nucleo.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:26:42] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:26:45] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:26:50] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:26:55] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:26:56] "GET /create_user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:27:09] "POST /create_user HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:27:12] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:27:15] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:27:15] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:27:15] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [03/Jul/2020 15:27:16] "GET /index HTTP/1.1" 200 -
