@@ -281,11 +281,6 @@
   @include font-size($custom-select-font-size-lg);
 }
 
-
-// File
-//
-// Custom file input.
-
 .custom-file {
   position: relative;
   display: inline-block;
@@ -372,9 +367,7 @@
 
   &:focus {
     outline: none;
-
-    // Pseudo-elements must be split across multiple rulesets to have an effect.
-    // No box-shadow() mixin for focus accessibility.
+    
     &::-webkit-slider-thumb { box-shadow: $custom-range-thumb-focus-box-shadow; }
     &::-moz-range-thumb     { box-shadow: $custom-range-thumb-focus-box-shadow; }
     &::-ms-thumb            { box-shadow: $custom-range-thumb-focus-box-shadow; }
