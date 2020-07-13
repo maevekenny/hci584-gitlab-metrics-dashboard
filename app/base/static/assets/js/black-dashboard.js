@@ -28,8 +28,6 @@ var seq2 = 0,
   durations2 = 500;
 
 (function() {
-  var isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
-
     if ($('.main-panel').length != 0) {
       var ps = new PerfectScrollbar('.main-panel', {
         wheelSpeed: 2,

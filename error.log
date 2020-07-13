@@ -797,3 +797,824 @@ INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 18:29:35] "GET /login HTTP/1.1" 302 -
 INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 18:29:35] "GET /index HTTP/1.1" 200 -
 INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 18:29:41] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
 INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 18:29:41] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 18:42:51] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 18:42:52] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 18:42:52] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:01:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:01:30] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:18:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:18:44] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:19:19] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:19:19] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:22:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:22:27] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:22:27] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:22:28] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:28:07] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:28:07] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:28:07] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:28:08] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:28:08] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 19:28:09] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:14] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:14] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/css/nucleo-icons.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/css/black-dashboard.css?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/js/core/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/js/plugins/chartjs.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/js/plugins/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/js/black-dashboard.min.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/fonts/nucleo.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:20] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:24] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:25] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:00:25] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:27] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:27] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:27] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:27] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:27] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:28] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:29] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:29] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:30] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:32] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:33] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:01:33] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/css/nucleo-icons.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/css/black-dashboard.css?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/js/core/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/js/plugins/chartjs.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/js/plugins/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/js/black-dashboard.min.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:11] "GET /static/assets/fonts/nucleo.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:12] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:12] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:12] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:02:13] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:08] "GET / HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:08] "GET /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:08] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:08] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:15] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:15] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:28] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:06:29] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:08:08] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:08:09] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:08:09] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:08:10] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:09:13] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:09:13] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:09:13] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:09:14] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:22:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:22:34] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:22:34] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:22:34] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\util.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\models.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\forms.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\requests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:27] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:27] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:28] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:38] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:38] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:43] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:44] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:49] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:33:49] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:34:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:34:30] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:34:30] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:34:31] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:20] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:21] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:21] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:21] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:25] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:25] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:25] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:26] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/css/nucleo-icons.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/dashboard/dashboard.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/css/black-dashboard.css?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/js/core/jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/js/core/popper.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/js/plugins/perfect-scrollbar.jquery.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/js/core/bootstrap.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/js/plugins/chartjs.min.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/dashboard/dashboard.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/js/plugins/bootstrap-notify.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/js/black-dashboard.min.js?v=1.0.0 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/fonts/nucleo.woff2 HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:29] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:35:31] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:37:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:37:41] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:37:41] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:37:42] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:41:41] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:41:41] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:41:41] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:41:42] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:46:49] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:46:50] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:46:50] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:46:51] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:55:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:55:45] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:55:46] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:55:46] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:56:57] "GET /index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:56:57] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:56:57] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:56:57] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:56:58] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:56:59] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:56:59] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:08] "GET /index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:08] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:08] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:08] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:08] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:09] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:09] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:15] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:15] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:15] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:57:16] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.1745401401667957
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5633016480218456
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:58:36] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:58:36] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:58:36] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 20:58:37] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\requests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.1745401401667957
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5633016480218456
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:03:10] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:03:11] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:03:11] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:03:12] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\requests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\requests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:12:51] "GET /index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:12:51] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:12:51] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:12:51] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:12:52] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:12:52] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:12:53] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:11] "GET /index HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:11] "GET /index?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:11] "GET /index?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:11] "GET /index?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:12] "GET /index?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:12] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:12] "GET /index?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\requests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues/?labels=workflow::In%20dev HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues/?labels=workflow::In%20dev HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.11006295897576766
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.587491302643925
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.1745401401667957
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5585262907839998
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:33] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:34] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:34] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:13:35] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\requests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\base\\requests.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues/?labels=workflow::ready%20for%20development HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues/?labels=workflow::ready%20for%20development HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 48016
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.7525
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.23988080802410897
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5751351839798883
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.7525
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues/?labels=workflow::In%20dev HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues/?labels=workflow::In%20dev HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.11006295897576766
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.587491302643925
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues?state=all HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues?state=all HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.1745401401667957
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5585262907839998
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:20:26] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:20:27] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:20:27] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:20:28] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\home\\routes.py', reloading
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 104-820-196
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues/?labels=workflow::ready%20for%20development HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues/?labels=workflow::ready%20for%20development HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 50622
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.7525
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.23988080802410897
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5745534168290688
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.7525
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues/?labels=workflow::In%20dev HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues/?labels=workflow::In%20dev HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.11006295897576766
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.587491302643925
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues?state=all HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues?state=all HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.1745401401667957
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5585262907839998
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:21:45] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:21:45] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:21:46] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:21:47] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues/?labels=workflow::ready%20for%20development HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues/?labels=workflow::ready%20for%20development HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:EUC-TW Taiwan prober hit error at byte 50622
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.7525
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.01
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.23988080802410897
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5745534168290688
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.7525
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW not active
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues/?labels=workflow::In%20dev HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues/?labels=workflow::In%20dev HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.11006295897576766
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.587491302643925
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): gitlab.com:443
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4//projects/278964/issues?state=all HTTP/1.1" 308 0
+DEBUG:urllib3.connectionpool:https://gitlab.com:443 "GET /api/v4/projects/278964/issues?state=all HTTP/1.1" 200 None
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+DEBUG:chardet.charsetprober:windows-1251 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:KOI8-R Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-5 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:MacCyrillic Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM866 Russian confidence = 0.0
+DEBUG:chardet.charsetprober:IBM855 Russian confidence = 0.01
+DEBUG:chardet.charsetprober:ISO-8859-7 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1253 Greek confidence = 0.0
+DEBUG:chardet.charsetprober:ISO-8859-5 Bulgairan confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1251 Bulgarian confidence = 0.0
+DEBUG:chardet.charsetprober:TIS-620 Thai confidence = 0.1745401401667957
+DEBUG:chardet.charsetprober:ISO-8859-9 Turkish confidence = 0.5585262907839998
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:windows-1255 Hebrew confidence = 0.0
+DEBUG:chardet.charsetprober:utf-8  confidence = 0.99
+DEBUG:chardet.charsetprober:SHIFT_JIS Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-JP Japanese confidence = 0.01
+DEBUG:chardet.charsetprober:GB2312 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-KR Korean confidence = 0.01
+DEBUG:chardet.charsetprober:CP949 Korean confidence = 0.01
+DEBUG:chardet.charsetprober:Big5 Chinese confidence = 0.01
+DEBUG:chardet.charsetprober:EUC-TW Taiwan confidence = 0.01
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:22:02] "GET /index HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:22:03] "GET /static/assets/js/_site_dashboard_free/assets/js/dashboard-free.js.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:22:03] "GET /static/assets/css/dashboard-free.css.map HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2020 21:22:03] "GET /static/assets/img/gitlab-icon.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\maeve\\Documents\\GitHub\\hci584-gitlab-metrics-dashboard\\app\\__init__.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat
+INFO:werkzeug: * Restarting with stat

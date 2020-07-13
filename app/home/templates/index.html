@@ -1,149 +1,167 @@
 {% extends "base-site.html" %}
 
-{% block title %} Login {% endblock %} 
+{% block title %} Login {% endblock %}
 
 {% block content %}
-    <div class="row">
-      <div class="col-lg-4">
-        <div class="card card-chart">
-          <div class="card-header">
-            <h5 class="card-category">Issues Open (Current)</h5>
-            <h3 class="card-title"><i class="tim-icons icon-bell-55 text-primary"></i> $N</h3>
-          </div>
-          <div class="card-body">
+<div class="row">
+  <div class="col-lg-4">
+    <div class="card card-chart">
+      <div class="card-header">
+        <h5 class="card-category">Issues Open (Current)</h5>
+        <h3 class="card-title"><i class="tim-icons icon-bell-55 text-primary"></i>
+          {{issues_open}}</h3>
+      </div>
+      <div class="card-body">
 
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card card-chart">
+      <div class="card-header">
+        <h5 class="card-category">Issues In Progress (Current)</h5>
+        <h3 class="card-title"><i class="tim-icons icon-delivery-fast
+            text-info"></i> {{issues_in_progress}}</h3>
+      </div>
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+  <div class="col-lg-4">
+    <div class="card card-chart">
+      <div class="card-header">
+        <h5 class="card-category">Total Issues</h5>
+        <h3 class="card-title"><i class="tim-icons icon-send text-success"></i>{{total_issues}}</h3>
+      </div>
+      <div class="card-body">
+
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+
+  <div class="col-9">
+    <div class="card card-chart">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-sm-6 text-left">
+            <h2 class="card-title">Progress</h2>
+          </div>
+          <div class="col-sm-6">
+            <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
+              <label class="btn btn-sm btn-primary btn-simple active" id="0">
+                <input type="radio" name="options" checked>
+                <span class="d-none d-sm-block d-md-block d-lg-block
+                  d-xl-block">Week</span>
+                <span class="d-block d-sm-none">
+                  <i class="tim-icons icon-single-02"></i>
+                </span>
+              </label>
+              <label class="btn btn-sm btn-primary btn-simple" id="1">
+                <input type="radio" class="d-none d-sm-none" name="options">
+                <span class="d-none d-sm-block d-md-block d-lg-block
+                  d-xl-block">Sprint</span>
+                <span class="d-block d-sm-none">
+                  <i class="tim-icons icon-gift-2"></i>
+                </span>
+              </label>
+              <label class="btn btn-sm btn-primary btn-simple" id="2">
+                <input type="radio" class="d-none" name="options">
+                <span class="d-none d-sm-block d-md-block d-lg-block
+                  d-xl-block">Release</span>
+                <span class="d-block d-sm-none">
+                  <i class="tim-icons icon-tap-02"></i>
+                </span>
+              </label>
+            </div>
           </div>
         </div>
       </div>
-      <div class="col-lg-4">
-        <div class="card card-chart">
-          <div class="card-header">
-            <h5 class="card-category">Issues In Progress (Current)</h5>
-            <h3 class="card-title"><i class="tim-icons icon-delivery-fast text-info"></i> $N</h3>
-          </div>
-          <div class="card-body">
-
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4">
-        <div class="card card-chart">
-          <div class="card-header">
-            <h5 class="card-category">Total Issues</h5>
-            <h3 class="card-title"><i class="tim-icons icon-send text-success"></i> $N</h3>
-          </div>
-          <div class="card-body">
-
-          </div>
+      <div class="card-body">
+        <div class="chart-area">
+          <canvas id="chartLinePurple"></canvas>
         </div>
       </div>
     </div>
-    <div class="row">
+  </div>
+  <div class="col-3">
+    <div class="card card-chart" style="background-color: #a75b98;">
+      <div class="card-header">
+        <div class="row">
+          <div class="col-sm-12 text-left">
+            <h5 class="card-category">{{last_merge.merged_at}}</h5>
+            <h2 class="card-title">Latest Merge</h2>
+          </div>
 
-      <div class="col-9">
-        <div class="card card-chart">
-          <div class="card-header ">
-            <div class="row">
-              <div class="col-sm-6 text-left">
-                <h2 class="card-title">Progress</h2>
-              </div>
-              <div class="col-sm-6">
-                <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
-                  <label class="btn btn-sm btn-primary btn-simple active" id="0">
-                    <input type="radio" name="options" checked>
-                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Week</span>
-                    <span class="d-block d-sm-none">
-                      <i class="tim-icons icon-single-02"></i>
-                    </span>
-                  </label>
-                  <label class="btn btn-sm btn-primary btn-simple" id="1">
-                    <input type="radio" class="d-none d-sm-none" name="options">
-                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Sprint</span>
-                    <span class="d-block d-sm-none">
-                      <i class="tim-icons icon-gift-2"></i>
-                    </span>
-                  </label>
-                  <label class="btn btn-sm btn-primary btn-simple" id="2">
-                    <input type="radio" class="d-none" name="options">
-                    <span class="d-none d-sm-block d-md-block d-lg-block d-xl-block">Release</span>
-                    <span class="d-block d-sm-none">
-                      <i class="tim-icons icon-tap-02"></i>
-                    </span>
-                  </label>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card-body">
-            <div class="chart-area">
-              <canvas id="chartLinePurple"></canvas>
-            </div>
-          </div>
         </div>
       </div>
- <div class="col-3">
-        <div class="card card-chart" style="background-color: #a75b98;">
-          <div class="card-header ">
-            <div class="row">
-              <div class="col-sm-12 text-left">
-                <h5 class="card-category">DATE</h5>
-                <h2 class="card-title">Latest Merge</h2>
-              </div>
-            
-            </div>
-          </div>
+      <div class="card-body">
+        <div class="card card-user" style="background-color: transparent;">
           <div class="card-body">
-            <div class="card card-user" style="background-color: transparent;">
-      <!-- <div class="card-body" >
-        <p class="card-text">
-          <div class="author">
-            <a href="javascript:void(0)">
-              <img class="avatar" src="/static/assets/img/emilyz.jpg" alt="...">
-              <h5 class="title">
-                {{ current_user.username }}
-              </h5>
-            </a>
-            <p class="description">
-              {{ current_user.email }}
+            <p class="card-text">
+            <div class="author">
+              <a href={{last_merge.author.web_url}}>
+                <img class="avatar" src={{last_merge.author.avatar_url}} alt="...">
+                <h5 class="title">
+                  {{ last_merge.author.name }}
+                </h5>
+              </a>
+              <p class="description">
+                {{ last_merge.author.web_url }}
+              </p>
+            </div>
             </p>
           </div>
-        </p>
-      </div> -->
-     
-    </div>
-          </div>
+
         </div>
       </div>
     </div>
+  </div>
+</div>
 
-    <div class="row">
-      <div class="col-12">
+<div class="row">
+  <div class="col-12">
 
-        <div class="card ">
-          <div class="card-header">
-            <h4 class="card-title"> Issues</h4>
-          </div>
-          <div class="card-body">
-            <div class="table-responsive" style="overflow: hidden;">
-              <table class="table tablesorter " id="">
-                <thead class=" text-primary">
-                  <tr>
-                    <th>
-                      Name
-                    </th>
-                    <th>
-                      Priority
-                    </th>
-                    <th>
-                      Creation Date
-                    </th>
-                    <th class="text-center">
-                      Status
-                    </th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <!-- <tr>
+    <div class="card">
+      <div class="card-header">
+        <h4 class="card-title"> Issues</h4>
+      </div>
+      <div class="card-body">
+        <div class="table-responsive" style="overflow: hidden;">
+          <table class="table tablesorter" id="issues-table">
+            <thead class="text-primary">
+              <tr>
+                <th>
+                  Name
+                </th>
+                <th>
+                  Priority
+                </th>
+                <th>
+                  Creation Date
+                </th>
+                <th class="text-center">
+                  Status
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+
+              <tr>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+              </tr>
+              <!-- <tr>
                     <td>
                       Dakota Rice
                     </td>
@@ -241,26 +259,39 @@
                       $98,615
                     </td>
                   </tr> -->
-                </tbody>
-              </table>
-            </div>
-          </div>
+            </tbody>
+          </table>
         </div>
-    
-    
       </div>
+    </div>
+
+
+  </div>
 </div>
 {% endblock content %}
 
-<!-- Specific Page JS goes HERE  -->
 {% block javascripts %}
 
-  <script>
-    $(document).ready(function() {
-      // Javascript method's body can be found in assets/js/demos.js
-      demo.initDashboardPageCharts();
+<script>
+  $(document).ready(function () {
+    dashboard.initDashboardPageCharts();
+  });
+  var array =
+    [["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
+    ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
+    ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
+    ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
+    ];
+  var table = document.getElementById("issues-table");
 
-    });
-  </script>
+  for (var i = 1; i < table.rows.length; i++) {
+    for (var j = 0; j < table.rows[i].cells.length; j++) {
+      if (j == 0)
+        table.rows[i].cells[j].innerHTML = '<a href="xyz.html">' + array[i - 1][j] + "</a>";
+      else
+        table.rows[i].cells[j].innerHTML = array[i - 1][j];
+    }
+  }
 
+</script>
 {% endblock javascripts %}

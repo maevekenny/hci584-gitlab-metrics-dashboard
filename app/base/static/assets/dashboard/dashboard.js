@@ -1,6 +1,6 @@
 type = ['primary', 'info', 'success', 'warning', 'danger'];
 
-demo = {
+dashboard = {
   initDashboardPageCharts: function() {
 
     gradientChartOptionsConfigurationWithTooltipPurple = {

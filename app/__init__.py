@@ -8,14 +8,17 @@ from os import path
 db = SQLAlchemy()
 login_manager = LoginManager()
 
+
 def register_extensions(app):
     db.init_app(app)
     login_manager.init_app(app)
+
 
 def register_blueprints(app):
     for module_name in ('base', 'home'):
         module = import_module('app.{}.routes'.format(module_name))
         app.register_blueprint(module.blueprint)
+
 
 def configure_database(app):
 
@@ -27,10 +30,11 @@ def configure_database(app):
     def shutdown_session(exception=None):
         db.session.remove()
 
+
 def configure_logs(app):
     # soft logging
     try:
-        basicConfig(filename='error.log', level=DEBUG)
+        basicConfig(filename='error.log', level=INFO)
         logger = getLogger()
         logger.addHandler(StreamHandler())
     except:
@@ -40,8 +44,6 @@ def configure_logs(app):
 def create_app(config, selenium=False):
     app = Flask(__name__, static_folder='base/static')
     app.config.from_object(config)
-    if selenium:
-        app.config['LOGIN_DISABLED'] = True
     register_extensions(app)
     register_blueprints(app)
     configure_database(app)
