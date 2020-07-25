@@ -2,7 +2,7 @@ from flask_wtf import FlaskForm
 from wtforms import TextField, PasswordField
 from wtforms.validators import InputRequired, Email, DataRequired
 
-## login and registration
+# login
 
 
 class LoginForm(FlaskForm):
@@ -10,6 +10,7 @@ class LoginForm(FlaskForm):
                          validators=[DataRequired()])
     password = PasswordField('Password', id='pwd_login',
                              validators=[DataRequired()])
+# registration
 
 
 class CreateAccountForm(FlaskForm):
