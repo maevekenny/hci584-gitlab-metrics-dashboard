@@ -20,7 +20,6 @@ def index():
     opened = 0
     in_progress = 0
     total = closed + opened
-    print('test', get_user_profile(gitlab_username, token)['username'])
 
     return render_template('index.html',
                            issues_open_length=opened, issues_opened=issues_opened,
@@ -32,13 +31,15 @@ def index():
 
 @blueprint.route('/<template>')
 def route_template(template):
-
+    token = current_user.token
+    gitlab_username = current_user.gitlab_username
+    user_profile = get_user_profile(gitlab_username, token)
     if not current_user.is_authenticated:
         return redirect(url_for('base_blueprint.login'))
 
     try:
 
-        return render_template(template + '.html')
+        return render_template(template + '.html', user_profile=user_profile)
 
     except TemplateNotFound:
         return render_template('page-404.html'), 404
