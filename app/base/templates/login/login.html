@@ -3,8 +3,8 @@
 {% block title %} Login {% endblock %} 
 {% block content %}
 
-        <div class="row">
-          <div class="col-md-8">
+        <div class="row" style="text-align: center; margin: 0 auto;">
+          <div class="col-md-5" style="text-align: center; margin: 0 auto;">
             <div class="card">
 
               <form role="form" method="post" action="">
@@ -12,7 +12,7 @@
                 {{ form.hidden_tag() }} 
 
                 <div class="card-header">
-                  <h5 class="title">Login</h5>
+                  <h5 class="title" style="font-size: x-large">Login</h5>
 
                   <h6 class="card-category">
                       {% if msg %}
@@ -31,7 +31,7 @@
 
                     <div class="row">
 
-                      <div class="col-md-3 px-md-1">
+                      <div class="col-md-5 px-md-1" style="align-content: center; margin: 0 auto;">
                         <div class="form-group">
                           <label>Username</label>
                           {{ form.username(class="form-control") }}
@@ -41,7 +41,7 @@
                     </div>
                     <div class="row">
 
-                      <div class="col-md-3 px-md-1">
+                      <div class="col-md-5 px-md-1" style="align-content: center; margin: 0 auto;">
                         <div class="form-group">
                           <label>Password</label>
                           {{ form.password(class="form-control", type="password") }}
@@ -53,7 +53,7 @@
                 </div>
                 <div class="card-footer">
                   <button type="submit" name="login" class="btn btn-fill btn-primary">Login</button>
-                  &nbsp; &nbsp;
+                  <br>
                   Don't have an account? <a href={{ url_for('base_blueprint.create_user') }} class="text-primary">Create</a>
                 </div>
 
