@@ -14,6 +14,8 @@ class User(db.Model, UserMixin):
     username = Column(String, unique=True)
     email = Column(String, unique=True)
     password = Column(Binary)
+    gitlab_username = Column(String)
+    token = Column(String)
 
     def __init__(self, **kwargs):
         for property, value in kwargs.items():

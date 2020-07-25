@@ -1,32 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="/static/assets/img/gitlab-icon.png"
+    />
+    <title>
+      GitLab Metrics Dashboard
+    </title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800"
+      rel="stylesheet"
+    />
+    <link
+      href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"
+      rel="stylesheet"
+    />
+    <link href="/static/assets/css/nucleo-icons.css" rel="stylesheet" />
+    <link
+      href="/static/assets/css/black-dashboard.css?v=1.0.0"
+      rel="stylesheet"
+    />
+    <link href="/static/assets/dashboard/dashboard.css" rel="stylesheet" />
+  </head>
 
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <link rel="icon" type="image/png" href="/static/assets/img/gitlab-icon.png">
-  <title>
-    GitLab Metrics Dashboard
-  </title>
-  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
-  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
-  <link href="/static/assets/css/nucleo-icons.css" rel="stylesheet" />
-  <link href="/static/assets/css/black-dashboard.css?v=1.0.0" rel="stylesheet" />
-  <link href="/static/assets/dashboard/dashboard.css" rel="stylesheet" />
-
-</head>
-
-<body class="">
-  <div class="wrapper">
-    <div class="main-panel">
-      {% include 'site_template/navigation.html' %}
-      <div class="content">
-        {% block content %}{% endblock content %}
+  <body class="">
+    <div class="wrapper">
+      <div class="main-panel">
+        {% include 'site_template/navigation.html' %}
+        <div class="content">
+          {% block content %}{% endblock content %}
+        </div>
       </div>
     </div>
-  </div>
-  {% include 'site_template/scripts.html' %}
-  {% block javascripts %}{% endblock javascripts %}
-</body>
-
+    {% include 'site_template/scripts.html' %} {% block javascripts %}{%
+    endblock javascripts %}
+  </body>
 </html>

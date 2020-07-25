@@ -9,11 +9,16 @@ from app.base.requests import get_closed_issues, get_issues_in_progress, get_ope
 @blueprint.route('/index')
 @login_required
 def index():
-    closed = len(get_closed_issues())
-    issues_opened = get_open_issues()
-    opened = len(issues_opened)
-    in_progress = len(get_issues_in_progress())
+    # closed = len(get_closed_issues())
+    # issues_opened = get_open_issues()
+    # opened = len(issues_opened)
+    # in_progress = len(get_issues_in_progress())
+    closed = 0
+    issues_opened = 0
+    opened = 0
+    in_progress = 0
     total = closed + opened
+    print('test')
 
     return render_template('index.html',
                            issues_open_length=opened, issues_opened=issues_opened,

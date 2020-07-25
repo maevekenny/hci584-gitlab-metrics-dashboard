@@ -58,11 +58,11 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [Python]() - Language
-* [Flask]() - The web framework used
-* [Git]() - Dependency Management
-* [BootStrap]() - Dark dashboard framework
+- [Python]() - Language
+- [Flask]() - The web framework used
+- [Git]() - Dependency Management
+- [BootStrap]() - Dark dashboard framework
 
 ## Authors
 
-* **Maeve Kenny** - maevek@iastate.edu
+- **Maeve Kenny** - maevek@iastate.edu

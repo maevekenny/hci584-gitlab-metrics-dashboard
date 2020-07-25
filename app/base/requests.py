@@ -49,6 +49,11 @@ def get_latest_merge():
     response = requests.request("GET", url, headers=HEADERS, data=PAYLOAD)
     return response.json()[0]
 
+
+def get_user_profile(username):
+    url = GIT_URL + "users?username=" + username
+    response = requests.request("GET", url, headers=HEADERS, data=PAYLOAD)
+    return response.text.encode('utf8')
 # # def get_issues_for_milestone(milestone_id, group_id)
 
 # # # validates that the user credentials are valid for GitLab

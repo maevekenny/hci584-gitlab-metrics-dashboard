@@ -15,10 +15,15 @@ class RegisterForm(Form):
     password = PasswordField(
         'Password', validators=[DataRequired(), Length(min=6, max=40)]
     )
+    gitlab_username = TextField(
+        'GitLab Username', validators=[DataRequired(), Length(min=6, max=40)])
+    token = TextField(
+        'GitLab Token', validators=[DataRequired(), Length(min=6, max=40)])
+
     confirm = PasswordField(
         'Repeat Password',
         [DataRequired(),
-        EqualTo('password', message='Passwords must match')]
+         EqualTo('password', message='Passwords must match')]
     )
 
 

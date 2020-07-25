@@ -23,28 +23,26 @@ def route_default():
 def route_errors(error):
     return render_template('errors/{}.html'.format(error))
 
-## Login & Registration
-
-
+# Login
 @blueprint.route('/login', methods=['GET', 'POST'])
 def login():
     login_form = LoginForm(request.form)
     if 'login' in request.form:
 
-        # read form data
+        # Get form data
         username = request.form['username']
         password = request.form['password']
 
-        # Locate user
+        # Look up the username
         user = User.query.filter_by(username=username).first()
 
-        # Check the password
+        # Validate the password
         if user and verify_pass(password, user.password):
 
             login_user(user)
             return redirect(url_for('base_blueprint.route_default'))
 
-        # Something (user or pass) is not ok
+        # Return error
         return render_template('login/login.html', msg='Wrong user or password', form=login_form)
 
     if not current_user.is_authenticated:
@@ -52,7 +50,7 @@ def login():
                                form=login_form)
     return redirect(url_for('home_blueprint.index'))
 
-
+# Registration
 @blueprint.route('/create_user', methods=['GET', 'POST'])
 def create_user():
     login_form = LoginForm(request.form)
@@ -61,6 +59,8 @@ def create_user():
 
         username = request.form['username']
         email = request.form['email']
+        gitlab_username = request.form['gitlab_username']
+        token = request.form['token']
 
         user = User.query.filter_by(username=username).first()
         if user:
@@ -80,15 +80,13 @@ def create_user():
     else:
         return render_template('login/register.html', form=create_account_form)
 
-
+# Log the user out
 @blueprint.route('/logout')
 def logout():
     logout_user()
     return redirect(url_for('base_blueprint.login'))
 
 # Errors
-
-
 @login_manager.unauthorized_handler
 def unauthorized_handler():
     return render_template('errors/403.html'), 403
