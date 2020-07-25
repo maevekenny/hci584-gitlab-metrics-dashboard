@@ -1,78 +1,78 @@
 {% extends "base-site.html" %}
 
-{% block title %} Login {% endblock %} 
+{% block title %} Login {% endblock %}
 {% block content %}
 
-        <div class="row" style="text-align: center; margin: 0 auto;">
-          <div class="col-md-5" style="text-align: center; margin: 0 auto;">
-            <div class="card">
+<div class="row" style="text-align: center; margin: 0 auto;">
+  <div class="col-md-5" style="text-align: center; margin: 0 auto;">
+    <div class="card">
 
-              <form role="form" method="post" action="">
-              
-                {{ form.hidden_tag() }} 
+      <form role="form" method="post" action="">
 
-                <div class="card-header">
-                  <h5 class="title" style="font-size: x-large">Login</h5>
+        {{ form.hidden_tag() }}
 
-                  <h6 class="card-category">
-                      {% if msg %}
-                        <span class="text-danger">{{ msg | safe }}</span>
-                      {% else %}
-                      <span>
-                        Use default credentials: test / pass
-                        <br />
-                        OR <a href={{ url_for('base_blueprint.create_user') }} >create your own user</a>
-                      </span>
-                      {% endif %}  
-                  </h6>
-                </div>
+        <div class="card-header">
+          <h5 class="title" style="font-size: x-large">Login</h5>
 
-                <div class="card-body">
+          <h6 class="card-category">
+            {% if msg %}
+            <span class="text-danger">{{ msg | safe }}</span>
+            {% else %}
+            <span>
+              Use default credentials: test / pass
+              <br />
+              OR <a href={{ url_for('base_blueprint.create_user') }}>create your own user</a>
+            </span>
+            {% endif %}
+          </h6>
+        </div>
 
-                    <div class="row">
+        <div class="card-body">
 
-                      <div class="col-md-5 px-md-1" style="align-content: center; margin: 0 auto;">
-                        <div class="form-group">
-                          <label>Username</label>
-                          {{ form.username(class="form-control") }}
-                        </div>
-                      </div>
+          <div class="row">
 
-                    </div>
-                    <div class="row">
-
-                      <div class="col-md-5 px-md-1" style="align-content: center; margin: 0 auto;">
-                        <div class="form-group">
-                          <label>Password</label>
-                          {{ form.password(class="form-control", type="password") }}
-                        </div>
-                      </div>
-
-                    </div>
-                    
-                </div>
-                <div class="card-footer">
-                  <button type="submit" name="login" class="btn btn-fill btn-primary">Login</button>
-                  <br>
-                  Don't have an account? <a href={{ url_for('base_blueprint.create_user') }} class="text-primary">Create</a>
-                </div>
-
-              </form>
-
+            <div class="col-md-5 px-md-1" style="align-content: center; margin: 0 auto;">
+              <div class="form-group">
+                <label>Username</label>
+                {{ form.username(class="form-control") }}
+              </div>
             </div>
+
           </div>
-      </div>
+          <div class="row">
+
+            <div class="col-md-5 px-md-1" style="align-content: center; margin: 0 auto;">
+              <div class="form-group">
+                <label>Password</label>
+                {{ form.password(class="form-control", type="password") }}
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <div class="card-footer">
+          <button type="submit" name="login" class="btn btn-fill btn-primary">Login</button>
+          <br>
+          Don't have an account? <a href={{ url_for('base_blueprint.create_user') }} class="text-primary">Create</a>
+        </div>
+
+      </form>
+
+    </div>
+  </div>
+</div>
 
 
 {% endblock content %}
 
 {% block javascripts %}
 
-  <script>
-    $(document).ready(function() {
-      dashboard.initDashboardPageCharts();
+<script>
+  $(document).ready(function () {
+    dashboard.initDashboardPageCharts();
 
-    });
-  </script>
+  });
+</script>
 
 {% endblock javascripts %}
