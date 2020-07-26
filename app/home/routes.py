@@ -11,22 +11,13 @@ import json
 @login_required
 def index():
     token = current_user.token
+    issue_stats = get_issue_statistics(token)
+    in_progress_stats = get_in_progress_issue_statistics(token)
     gitlab_username = current_user.gitlab_username
-    # closed = len(get_closed_issues(token))
-    # issues_opened = get_open_issues(token)
-    # opened = len(issues_opened)
-    # in_progress = len(get_issues_in_progress(token))
-    closed = 0
-    issues_opened = 0
-    opened = 0
-    in_progress = 0
-    total = closed + opened
-    issues = get_all_issues(token)
-    print(type(issues))
     return render_template('index.html',
-                           issues_open_length=opened, issues_opened=issues_opened,
-                           issues_in_progress=in_progress,
-                           total_issues=total,
+                           issues_open_count=issue_stats['statistics']['counts']['opened'],
+                           issue_in_progress_count=in_progress_stats['statistics']['counts']['opened'],
+                           issues_total_count=issue_stats['statistics']['counts']['all'],
                            last_merge=get_latest_merge(token),
                            user_profile=get_user_profile(
                                gitlab_username, token),

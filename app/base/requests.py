@@ -21,13 +21,26 @@ def get_all_issues(token):
     return response.json()
 
 
+def get_issue_statistics(token):
+    url = GIT_URL + "/projects/" + GROUP_ID + "/issues_statistics?scope=all"
+    response = requests.request(
+        "GET", url, headers={'PRIVATE-TOKEN': token}, data={})
+    return response.json()
+
+def get_in_progress_issue_statistics(token):
+    url = GIT_URL + "/projects/" + GROUP_ID + \
+        "/issues_statistics?state=opened&labels=workflow::In dev"
+    response = requests.request(
+        "GET", url, headers={'PRIVATE-TOKEN': token}, data={})
+    return response.json()
+
 def get_closed_issues(token):
     print('user', current_user.token)
 
     url = GIT_URL + "/projects/" + GROUP_ID + "/issues?scope=all&state=closed"
     response = requests.request(
         "GET", url, headers={'PRIVATE-TOKEN': token}, data={})
-    return response.text.encode('utf8')
+    return response.json()
 
 
 def get_issues_in_progress(token):
