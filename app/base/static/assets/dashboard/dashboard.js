@@ -72,7 +72,7 @@ dashboard = {
 
     gradientStrokeClosed.addColorStop(1, "rgba(62,62,176,0.1)");
     gradientStrokeClosed.addColorStop(0.4, "rgba(62,62,176,0.0)");
-    gradientStrokeClosed.addColorStop(0, "rgba(259,62,169,0)"); //purple colors
+    gradientStrokeClosed.addColorStop(0, "rgba(259,62,169,0.5)"); //purple colors
     var config = {
       type: "line",
       data: {
@@ -98,13 +98,13 @@ dashboard = {
           {
             fill: true,
             backgroundColor: gradientStrokeClosed,
-            borderColor: "#d346b1",
+            borderColor: "#7dc395",
             borderWidth: 2,
             borderDash: [],
             borderDashOffset: 0.0,
-            pointBackgroundColor: "#d346b1",
+            pointBackgroundColor: "#7dc395",
             pointBorderColor: "rgba(255,255,255,0)",
-            pointHoverBackgroundColor: "#d346b1",
+            pointHoverBackgroundColor: "#7dc395",
             pointBorderWidth: 20,
             pointHoverRadius: 4,
             pointHoverBorderWidth: 15,

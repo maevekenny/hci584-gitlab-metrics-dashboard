@@ -172,7 +172,7 @@ def get_issue_stats_by_week(token):
 
 def get_issues_in_progress(token):
     url = GIT_URL + "projects/" + PROJECT_ID + \
-        "/issues/?state=opened&labels=workflow::In dev"
+        "/issues/?state=opened&labels=workflow::In dev&per_page=10"
     response = requests.request(
         "GET", url, headers={'PRIVATE-TOKEN': token}, data={})
     return response.json()
