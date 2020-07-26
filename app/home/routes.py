@@ -30,7 +30,7 @@ def index():
                            last_merge=get_latest_merge(token),
                            user_profile=get_user_profile(
                                gitlab_username, token),
-                           issue_list=issues)
+                           issue_list=get_issues_in_progress(token))
 
 
 @blueprint.route('/<template>')

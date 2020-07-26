@@ -35,7 +35,7 @@ def get_issues_in_progress(token):
         "/issues/?state=opened&labels=workflow::In dev"
     response = requests.request(
         "GET", url, headers={'PRIVATE-TOKEN': token}, data={})
-    return response.text.encode('utf8')
+    return response.json()
 
 
 def get_open_issues(token):
@@ -43,7 +43,7 @@ def get_open_issues(token):
         "/issues/?state=opened&labels=workflow::ready for development"
     response = requests.request(
         "GET", url, headers={'PRIVATE-TOKEN': token}, data={})
-    return response.text.encode('utf8')
+    return response.json()
 
 
 def get_milestones(token):

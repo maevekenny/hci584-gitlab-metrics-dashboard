@@ -126,7 +126,7 @@
 
     <div class="card">
       <div class="card-header">
-        <h4 class="card-title"> Issues</h4>
+        <h4 class="card-title"> Open Issues</h4>
       </div>
       <div class="card-body">
         <div class="table-responsive" style="overflow: hidden;">
@@ -143,7 +143,7 @@
                   Creation Date
                 </th>
                 <th class="text-center">
-                  Status
+                  Labels
                 </th>
               </tr>
             </thead>
@@ -153,7 +153,12 @@
                 <td><a href={{issue.web_url}}>{{issue.title}}</a></td>
                 <td>{{issue.weight}}</td>
                 <td>{{issue.created_at}}</td>
-                <td>{{issue.state}}</td>
+                <td>
+                <span class="badge badge-primary">{{issue.labels[0]}}</span>
+                <span class="badge badge-secondary">{{issue.labels[1]}}</span>
+                <span class="badge badge-info">{{issue.labels[2]}}</span>
+
+                </td>
               </tr>
               {% endfor %}
 
@@ -174,25 +179,5 @@
   $(document).ready(function () {
     dashboard.initDashboardPageCharts();
   });
-  const issue_list = {{ issue_list | tojson}};
-  console.log(issue_list)
-
-    // var array =
-    //   [["DAST API scans print rules from incorrect scan policy", "P3", "July 12, 2020", "opened"],
-    //   ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
-    //   ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
-    //   ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
-    //   ];
-    // var table = document.getElementById("issues-table");
-
-    // for (var i = 1; i < table.rows.length; i++) {
-    //   for (var j = 0; j < table.rows[i].cells.length; j++) {
-    //     if (j == 0)
-    //       table.rows[i].cells[j].innerHTML = '<a href="xyz.html">' + array[i - 1][j] + "</a>";
-    //     else
-    //       table.rows[i].cells[j].innerHTML = array[i - 1][j];
-    //   }
-    // }
-
 </script>
 {% endblock javascripts %}
