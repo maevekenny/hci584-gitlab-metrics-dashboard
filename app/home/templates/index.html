@@ -47,7 +47,7 @@
       <div class="card-header">
         <div class="row">
           <div class="col-sm-6 text-left">
-            <h2 class="card-title">Progress</h2>
+            <h2 class="card-title">Issues Open Vs. Closed</h2>
           </div>
           <div class="col-sm-6">
             <div class="btn-group btn-group-toggle float-right" data-toggle="buttons">
@@ -62,17 +62,9 @@
               <label class="btn btn-sm btn-primary btn-simple" id="1">
                 <input type="radio" class="d-none d-sm-none" name="options">
                 <span class="d-none d-sm-block d-md-block d-lg-block
-                  d-xl-block">Sprint</span>
+                  d-xl-block">Year - 2020</span>
                 <span class="d-block d-sm-none">
                   <i class="tim-icons icon-gift-2"></i>
-                </span>
-              </label>
-              <label class="btn btn-sm btn-primary btn-simple" id="2">
-                <input type="radio" class="d-none" name="options">
-                <span class="d-none d-sm-block d-md-block d-lg-block
-                  d-xl-block">Release</span>
-                <span class="d-block d-sm-none">
-                  <i class="tim-icons icon-tap-02"></i>
                 </span>
               </label>
             </div>
@@ -176,8 +168,14 @@
 {% block javascripts %}
 
 <script type="text/javascript">
+var weeklyIssues = {{weekly_issues|tojson}};
+var monthlyIssues = {{monthly_issues|tojson}};
+
+var weeklyIssueData = {dates: weeklyIssues[0], countsOpened :weeklyIssues[1], countsClosed: weeklyIssues[2]};
+var monthlyIssueData = {months: monthlyIssues[0], countsOpened:monthlyIssues[1], countsClosed: monthlyIssues[2]}
+
   $(document).ready(function () {
-    dashboard.initDashboardPageCharts();
+    dashboard.initDashboardPageCharts(weeklyIssueData, monthlyIssueData);
   });
 </script>
 {% endblock javascripts %}
