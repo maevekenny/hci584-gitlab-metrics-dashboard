@@ -14,6 +14,13 @@ def get_gitlab_project(token):
     print(response.text.encode('utf8'))
 
 
+def get_all_issues(token):
+    url = GIT_URL + "/projects/" + GROUP_ID + "/issues"
+    response = requests.request(
+        "GET", url, headers={'PRIVATE-TOKEN': token}, data={})
+    return response.json()
+
+
 def get_closed_issues(token):
     print('user', current_user.token)
 

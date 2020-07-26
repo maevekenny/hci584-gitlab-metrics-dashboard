@@ -148,19 +148,15 @@
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
+              {% for issue in issue_list %}
+              <tr '{{issue | tojson}}'>
+                <td><a href={{issue.web_url}}>{{issue.title}}</a></td>
+                <td>{{issue.weight}}</td>
+                <td>{{issue.created_at}}</td>
+                <td>{{issue.state}}</td>
               </tr>
+              {% endfor %}
 
-              <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-              </tr>
             </tbody>
           </table>
         </div>
@@ -174,26 +170,29 @@
 
 {% block javascripts %}
 
-<script>
+<script type="text/javascript">
   $(document).ready(function () {
     dashboard.initDashboardPageCharts();
   });
-  var array =
-    [["DAST API scans print rules from incorrect scan policy", "P3", "July 12, 2020", "opened"],
-    ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
-    ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
-    ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
-    ];
-  var table = document.getElementById("issues-table");
+  const issue_list = {{ issue_list | tojson}};
+  console.log(issue_list)
 
-  for (var i = 1; i < table.rows.length; i++) {
-    for (var j = 0; j < table.rows[i].cells.length; j++) {
-      if (j == 0)
-        table.rows[i].cells[j].innerHTML = '<a href="xyz.html">' + array[i - 1][j] + "</a>";
-      else
-        table.rows[i].cells[j].innerHTML = array[i - 1][j];
-    }
-  }
+    // var array =
+    //   [["DAST API scans print rules from incorrect scan policy", "P3", "July 12, 2020", "opened"],
+    //   ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
+    //   ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
+    //   ["DAST API scans print rules from incorrect scan policy", "P3", "<DATE>", "opened"],
+    //   ];
+    // var table = document.getElementById("issues-table");
+
+    // for (var i = 1; i < table.rows.length; i++) {
+    //   for (var j = 0; j < table.rows[i].cells.length; j++) {
+    //     if (j == 0)
+    //       table.rows[i].cells[j].innerHTML = '<a href="xyz.html">' + array[i - 1][j] + "</a>";
+    //     else
+    //       table.rows[i].cells[j].innerHTML = array[i - 1][j];
+    //   }
+    // }
 
 </script>
 {% endblock javascripts %}
