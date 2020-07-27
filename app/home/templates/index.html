@@ -73,7 +73,7 @@
       </div>
       <div class="card-body">
         <div class="chart-area">
-          <canvas id="chartLinePurple"></canvas>
+          <canvas id="issueLineChart"></canvas>
         </div>
       </div>
     </div>
@@ -175,7 +175,7 @@ var weeklyIssueData = {dates: weeklyIssues[0], countsOpened :weeklyIssues[1], co
 var monthlyIssueData = {months: monthlyIssues[0], countsOpened:monthlyIssues[1], countsClosed: monthlyIssues[2]}
 
   $(document).ready(function () {
-    dashboard.initDashboardPageCharts(weeklyIssueData, monthlyIssueData);
+    dashboard.initDashboardChart(weeklyIssueData, monthlyIssueData);
   });
 </script>
 {% endblock javascripts %}

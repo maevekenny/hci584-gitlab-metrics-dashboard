@@ -20,6 +20,6 @@ class CreateAccountForm(FlaskForm):
     password = PasswordField('Password', id='pwd_create',
                              validators=[DataRequired()])
     gitlab_username = TextField('GitLab Username', id='gitlab_username_create',
-                                validators=[DataRequired()])
+                                validators=[DataRequired()], default='maevekenny210')
     token = TextField('GitLab Token', id='token_create',
-                      validators=[DataRequired()])
+                      validators=[DataRequired()], default='pLey582NjxGWUAw5FccS')

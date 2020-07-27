@@ -1,13 +1,17 @@
 dashboard = {
-  initDashboardPageCharts: function (weeklyIssueData, monthlyIssueData) {
+  // Build the issue line chart
+  initDashboardChart: function (weeklyIssueData, monthlyIssueData) {
+    // ---  The weekly chart data
     var weeklyChartLabels = weeklyIssueData.dates;
     var weeklyChartDataOpened = weeklyIssueData.countsOpened;
     var weeklyChartDataClosed = weeklyIssueData.countsClosed;
 
+    // ---  The monthly chart data
     var monthlyChartLabels = monthlyIssueData.months;
     var monthlyChartDataOpened = monthlyIssueData.countsOpened;
     var monthlyChartDataClosed = monthlyIssueData.countsClosed;
 
+    // The tooltip style configuration
     gradientChartOptionsConfigurationWithTooltipPurple = {
       maintainAspectRatio: false,
       legend: {
@@ -23,7 +27,6 @@ dashboard = {
         intersect: 0,
         position: "nearest",
       },
-
       responsive: true,
       scales: {
         yAxes: [
@@ -60,19 +63,22 @@ dashboard = {
       },
     };
 
-    var ctx = document.getElementById("chartLinePurple").getContext("2d");
+    // Building the line chart
+    var ctx = document.getElementById("issueLineChart").getContext("2d");
 
+    // ---  The open issue line style
     var gradientStrokeOpened = ctx.createLinearGradient(0, 230, 0, 50);
-
     gradientStrokeOpened.addColorStop(1, "rgba(72,72,176,0.1)");
     gradientStrokeOpened.addColorStop(0.4, "rgba(72,72,176,0.0)");
-    gradientStrokeOpened.addColorStop(0, "rgba(119,52,169,0)"); //purple colors
+    gradientStrokeOpened.addColorStop(0, "rgba(119,52,169,0)");
 
+    // ---  The closed issue line style
     var gradientStrokeClosed = ctx.createLinearGradient(0, 300, 0, 50);
-
     gradientStrokeClosed.addColorStop(1, "rgba(62,62,176,0.1)");
     gradientStrokeClosed.addColorStop(0.4, "rgba(62,62,176,0.0)");
-    gradientStrokeClosed.addColorStop(0, "rgba(259,62,169,0.5)"); //purple colors
+    gradientStrokeClosed.addColorStop(0, "rgba(259,62,169,0.5)");
+
+    // The style and data configuration of the chart
     var config = {
       type: "line",
       data: {

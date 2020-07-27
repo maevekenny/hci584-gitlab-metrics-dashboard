@@ -3,4 +3,4 @@
 env
 venv
 node_modules/
-error.log
+*.log

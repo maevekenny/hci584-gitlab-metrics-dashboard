@@ -1,6 +1,6 @@
 {
   "name": "gitlab-metrics-dashboard",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Dashboard to monitor GitLab Metrics.",
   "scripts": {
     "lint": "eslint ."

@@ -17,7 +17,9 @@
         <li class="dropdown nav-item">
           <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
             <div class="photo">
+              {% if user_profile != null %}
               <img src={{user_profile.avatar_url}} alt="Profile Photo">
+              {% endif %}
             </div>
             <b class="caret d-none d-lg-block d-xl-block"></b>
             <p class="d-lg-none">

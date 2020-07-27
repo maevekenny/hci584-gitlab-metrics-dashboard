@@ -2,7 +2,6 @@ import requests
 import gitlab
 import mimetypes
 from datetime import datetime, timedelta
-
 from flask_login import login_required, current_user
 
 # GitLab URL - can change for another GitLab server

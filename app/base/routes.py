@@ -10,22 +10,42 @@ from app import db, login_manager
 from app.base import blueprint
 from app.base.forms import LoginForm, CreateAccountForm
 from app.base.models import User
-
 from app.base.util import verify_pass
 
 
 @blueprint.route('/')
 def route_default():
+    """
+    The function to create the default route.
+
+    Returns:
+    Redirection to the base_blueprint.
+    """
     return redirect(url_for('base_blueprint.login'))
 
 
 @blueprint.route('/error-<error>')
 def route_errors(error):
+    """
+    The function to catch errors when routing.
+
+    Parameters:
+    error (string): The particular error.
+
+    Returns:
+    Redirection to the error templates.
+    """
     return render_template('errors/{}.html'.format(error))
 
-# Login
+
 @blueprint.route('/login', methods=['GET', 'POST'])
 def login():
+    """
+    The function to route to the login page.
+
+    Returns:
+    Redirection to the login templates
+    """
     login_form = LoginForm(request.form)
     if 'login' in request.form:
 
@@ -50,9 +70,15 @@ def login():
                                form=login_form)
     return redirect(url_for('home_blueprint.index'))
 
-# Registration
+
 @blueprint.route('/create_user', methods=['GET', 'POST'])
 def create_user():
+    """
+    The function to route to the registration form.
+
+    Returns:
+    Redirection to the registration templates.
+    """
     login_form = LoginForm(request.form)
     create_account_form = CreateAccountForm(request.form)
     if 'register' in request.form:
@@ -70,7 +96,7 @@ def create_user():
         if user:
             return render_template('login/register.html', msg='Email already registered', form=create_account_form)
 
-        # else we can create the user
+        # If not, create the user
         user = User(**request.form)
         db.session.add(user)
         db.session.commit()
@@ -80,28 +106,58 @@ def create_user():
     else:
         return render_template('login/register.html', form=create_account_form)
 
-# Log the user out
+
 @blueprint.route('/logout')
 def logout():
+    """
+    The function to log the user out and reroute the login page.
+
+    Returns:
+    Redirection to the login page.
+    """
     logout_user()
     return redirect(url_for('base_blueprint.login'))
 
-# Errors
+
 @login_manager.unauthorized_handler
 def unauthorized_handler():
+    """
+    The function to route 403 unauthorized template.
+
+    Returns:
+    Redirection to the error template.
+    """
     return render_template('errors/403.html'), 403
 
 
 @blueprint.errorhandler(403)
 def access_forbidden(error):
+    """
+    The function to route 403 access forbidden template.
+
+    Returns:
+    Redirection to the error template.
+    """
     return render_template('errors/403.html'), 403
 
 
 @blueprint.errorhandler(404)
 def not_found_error(error):
+    """
+    The function to route 404 not found template.
+
+    Returns:
+    Redirection to the error template.
+    """
     return render_template('errors/404.html'), 404
 
 
 @blueprint.errorhandler(500)
 def internal_error(error):
+    """
+    The function to route 500 internal error template.
+
+    Returns:
+    Redirection to the error template.
+    """
     return render_template('errors/500.html'), 500

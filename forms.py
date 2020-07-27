@@ -2,10 +2,14 @@ from flask_wtf import Form
 from wtforms import TextField, PasswordField
 from wtforms.validators import DataRequired, EqualTo, Length
 
-# Set your classes here.
-
 
 class RegisterForm(Form):
+    """ 
+    This is a class for the Registration Form.
+
+    Attributes: 
+        Form (Form): The flask_wtf Form class.
+    """
     name = TextField(
         'Username', validators=[DataRequired(), Length(min=6, max=25)]
     )
@@ -28,11 +32,22 @@ class RegisterForm(Form):
 
 
 class LoginForm(Form):
+    """ 
+    This is a class for the Login Form.
+
+    Attributes: 
+        Form (Form): The flask_wtf Form class.
+    """
     name = TextField('Username', [DataRequired()])
     password = PasswordField('Password', [DataRequired()])
 
 
 class ForgotForm(Form):
-    email = TextField(
-        'Email', validators=[DataRequired(), Length(min=6, max=40)]
-    )
+    """
+    This is a class for the Forgot Email Form.
+
+    Attributes:
+        Form (Form): The flask_wtf Form class.
+    """
+    email = TextField('Email', validators=[
+                      DataRequired(), Length(min=6, max=40)])
