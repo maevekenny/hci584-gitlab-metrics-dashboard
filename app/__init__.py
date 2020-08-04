@@ -5,39 +5,74 @@ from importlib import import_module
 from logging import basicConfig, DEBUG, getLogger, StreamHandler
 from os import path
 
+"""
+HCI 584 - Summer 2020
+The module to do all system / database / blueprint configuration. The app is registered and created in this module.
+
+Author: Maeve Kenny
+"""
+
 db = SQLAlchemy()
 login_manager = LoginManager()
 
 
 def register_extensions(app):
-    """Database registration"""
+    """
+    Database registration
+
+    Attributes:
+        app (Flask): The main application
+
+    """
     db.init_app(app)
     login_manager.init_app(app)
 
 
 def register_blueprints(app):
-    """Home / base site blueprint initialization"""
+    """
+    Home / base site blueprint initialization
+
+    Attributes:
+        app (Flask): The main application
+
+    """
     for module_name in ('base', 'home'):
         module = import_module('app.{}.routes'.format(module_name))
         app.register_blueprint(module.blueprint)
 
 
 def configure_database(app):
-    """Database configuration"""
+    """
+    The function for database configuration.
 
+    Attributes:
+        app (Flask): The main application
+
+    """
     @app.before_first_request
     def initialize_database():
-        """Database initialization with table creation"""
+        """
+        The function for database initialization with table creation
+
+        """
         db.create_all()
 
     @app.teardown_request
     def shutdown_session(exception=None):
-        """Database shut down"""
+        """
+        The function for shutting down the database.
+        """
         db.session.remove()
 
 
 def configure_logs(app):
-    """Soft logging configuration"""
+    """
+    The function for soft logging configuration.
+
+    Attributes:
+        app (Flask): The main application
+
+    """
     try:
         basicConfig(filename='error.log', level=INFO)
         logger = getLogger()
@@ -46,8 +81,13 @@ def configure_logs(app):
         pass
 
 
-def create_app(config, selenium=False):
-    """App initialization with database / blueprints configuration"""
+def create_app(config):
+    """
+    App initialization with database / blueprints configuration
+
+    Attributes:
+        config (config): The configuration file to pass in
+    """
     app = Flask(__name__, static_folder='base/static')
     app.config.from_object(config)
     register_extensions(app)

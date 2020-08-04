@@ -6,10 +6,22 @@ from jinja2 import TemplateNotFound
 from app.base.requests import *
 import json
 
+"""
+HCI 584 - Summer 2020
+The module that holds the  blueprint route template configurations.
+Author: Maeve Kenny
+"""
+
 
 @blueprint.route('/index')
 @login_required
 def index():
+    """
+    The index route template
+
+    Returns:
+        Redirection to index.html
+    """
     token = current_user.token
     issue_stats = get_issue_statistics(token)
     in_progress_stats = get_in_progress_issue_statistics(token)
@@ -28,6 +40,15 @@ def index():
 
 @blueprint.route('/<template>')
 def route_template(template):
+    """
+    The blueprint route template.
+
+    Attributes:
+        template (string): The template page
+
+    Returns:
+        Redirection to the particular template passed in
+    """
     token = current_user.token
     gitlab_username = current_user.gitlab_username
     user_profile = get_user_profile(gitlab_username, token)

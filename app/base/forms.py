@@ -2,9 +2,22 @@ from flask_wtf import FlaskForm
 from wtforms import TextField, PasswordField
 from wtforms.validators import InputRequired, Email, DataRequired
 
+"""
+HCI 584 - Summer 2020
+The module that holds the two unique Form types for the system.
+
+Author: Maeve Kenny
+"""
+
 
 class LoginForm(FlaskForm):
-    """Login form input """
+    """
+    The function to create the login form.
+
+    Attributes:
+        FlaskForm (Form): The form data to build the login form
+
+    """
     username = TextField('Username', id='username_login',
                          validators=[DataRequired()])
     password = PasswordField('Password', id='pwd_login',
@@ -12,7 +25,13 @@ class LoginForm(FlaskForm):
 
 
 class CreateAccountForm(FlaskForm):
-    """Account registration form input """
+    """
+    The function to create the account registration form.
+
+    Attributes:
+        FlaskForm (Form): The form data to build the registration form
+
+    """
     username = TextField('Username', id='username_create',
                          validators=[DataRequired()])
     email = TextField('Email', id='email_create',

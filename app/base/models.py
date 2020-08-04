@@ -3,14 +3,22 @@ from sqlalchemy import Binary, Column, Integer, String
 from app import db, login_manager
 from app.base.util import hash_pass
 
+"""
+HCI 584 - Summer 2020
+The module that holds the User class and the functions related to it.
+
+Author: Maeve Kenny
+"""
+
 
 class User(db.Model, UserMixin):
     """ 
     This is a class for the user of the system.
 
     Attributes: 
-        model (DefaultMetadata): The database model.
+        model (DefaultMetadata): The database model
         mixin (UserMixin): The flask_login class expects users to login
+
     """
     __tablename__ = 'User'
 
@@ -25,9 +33,10 @@ class User(db.Model, UserMixin):
         """
         The constructor for User class.
 
-        Parameters:
-           self (User): The User object to manipulate.
-           kwargs (dict): The dictionary of arguments.
+        Attributes:
+           self (User): The User object to manipulate
+           kwargs (dict): The dictionary of arguments
+
         """
         for property, value in kwargs.items():
             # depending on whether value is an iterable or not, we must
@@ -47,8 +56,11 @@ class User(db.Model, UserMixin):
         """
         The function to get the username.
 
-        Parameters:
-           self (User): The User object to manipulate.
+        Attributes:
+           self (User): The User object to manipulate
+
+        Returns:
+            username (string): The username
         """
         return str(self.username)
 
@@ -58,8 +70,11 @@ def user_loader(id):
     """
     The function to return the user matching the id.
 
-    Parameters:
-        id (string): The id of the user.
+    Attributes:
+        id (string): The id of the user
+
+    Returns:
+        username (string): The username
     """
     return User.query.filter_by(id=id).first()
 
@@ -69,8 +84,11 @@ def request_loader(request):
     """
     The function to retrieve the user based on the request form.
 
-    Parameters:
-        request (object): The request form.
+    Attributes:
+        request (object): The request form
+
+    Returns:
+        username (string): The username
     """
     username = request.form.get('username')
     user = User.query.filter_by(username=username).first()

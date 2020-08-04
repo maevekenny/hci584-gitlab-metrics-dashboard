@@ -12,6 +12,13 @@ from app.base.forms import LoginForm, CreateAccountForm
 from app.base.models import User
 from app.base.util import verify_pass
 
+"""
+HCI 584 - Summer 2020
+The module that holds the blueprint route configurations.
+
+Author: Maeve Kenny
+"""
+
 
 @blueprint.route('/')
 def route_default():
@@ -19,7 +26,7 @@ def route_default():
     The function to create the default route.
 
     Returns:
-    Redirection to the base_blueprint.
+        Redirection to the base_blueprint
     """
     return redirect(url_for('base_blueprint.login'))
 
@@ -29,11 +36,11 @@ def route_errors(error):
     """
     The function to catch errors when routing.
 
-    Parameters:
-    error (string): The particular error.
+    Attributes:
+        error (string): The particular error
 
     Returns:
-    Redirection to the error templates.
+        Redirection to the error templates
     """
     return render_template('errors/{}.html'.format(error))
 
@@ -44,7 +51,7 @@ def login():
     The function to route to the login page.
 
     Returns:
-    Redirection to the login templates
+        Redirection to the login templates
     """
     login_form = LoginForm(request.form)
     if 'login' in request.form:
@@ -77,7 +84,7 @@ def create_user():
     The function to route to the registration form.
 
     Returns:
-    Redirection to the registration templates.
+        Redirection to the registration templates
     """
     login_form = LoginForm(request.form)
     create_account_form = CreateAccountForm(request.form)
@@ -113,7 +120,7 @@ def logout():
     The function to log the user out and reroute the login page.
 
     Returns:
-    Redirection to the login page.
+        Redirection to the login page
     """
     logout_user()
     return redirect(url_for('base_blueprint.login'))
@@ -122,10 +129,10 @@ def logout():
 @login_manager.unauthorized_handler
 def unauthorized_handler():
     """
-    The function to route 403 unauthorized template.
+    The function to route 403 unauthorized template
 
     Returns:
-    Redirection to the error template.
+        Redirection to the error template
     """
     return render_template('errors/403.html'), 403
 
@@ -135,8 +142,11 @@ def access_forbidden(error):
     """
     The function to route 403 access forbidden template.
 
+    Attributes:
+        error (string): The particular error
+
     Returns:
-    Redirection to the error template.
+        Redirection to the error template
     """
     return render_template('errors/403.html'), 403
 
@@ -146,8 +156,11 @@ def not_found_error(error):
     """
     The function to route 404 not found template.
 
+    Attributes:
+        error (string): The particular error
+
     Returns:
-    Redirection to the error template.
+        Redirection to the error template
     """
     return render_template('errors/404.html'), 404
 
@@ -157,7 +170,10 @@ def internal_error(error):
     """
     The function to route 500 internal error template.
 
+    Attributes:
+        error (string): The particular error
+
     Returns:
-    Redirection to the error template.
+        Redirection to the error template
     """
     return render_template('errors/500.html'), 500
