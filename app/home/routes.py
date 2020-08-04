@@ -9,10 +9,9 @@ import json
 """
 HCI 584 - Summer 2020
 The module that holds the  blueprint route template configurations.
+
 Author: Maeve Kenny
 """
-
-
 @blueprint.route('/index')
 @login_required
 def index():
