@@ -13,7 +13,11 @@ This app will be used to show significant metrics on how a team is performing du
 
 ## Installation
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. To see more architecture and high-level details of the system, refer to the [Developer Guide](./docs/developer-guide.md).To understand how to navigate and signifiance of components on the displays, refer to the [User Guide](./docs/user-guide.md).
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+To see more architecture and high-level details of the system, refer to the [Developer Guide](./docs/developer-guide.md).
+
+To understand how to navigate and significance of components on the displays, refer to the [User Guide](./docs/user-guide.md).
 
 ### Get Code
 
