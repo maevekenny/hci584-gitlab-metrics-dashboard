@@ -259,7 +259,7 @@ def get_issue_stats_by_month(token):
     """
     # TODO: Don't hardcode the months - possibly use a better python library for date
     months = ["January", "February", "March",
-              "April", "May", "June", "July"]
+              "April", "May", "June", "July", "August"]
     counts_opened = []
     counts_closed = []
 
