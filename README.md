@@ -15,9 +15,7 @@ This app will be used to show significant metrics on how a team is performing du
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-To see more architecture and high-level details of the system, refer to the [Developer Guide](./docs/developer-guide.md).
-
-To understand how to navigate and significance of components on the displays, refer to the [User Guide](./docs/user-guide.md).
+To see more architecture, high-level details of the system, bugs, and future enhancements, refer to the [Developer Guide](./docs/developer-guide.md).
 
 ### Get Code
 
@@ -48,6 +46,10 @@ To run the application locally, enter the following command into your terminal:
 ```bash
 python main.py
 ```
+
+Navigate to http://127.0.0.1:5000/ in your browser to access the project.
+
+**!!NOTE!! -** For ease of development, there is a GitLab username and token stored in the project so a tester doesn't have to create a new account.
 
 ## Author
 
